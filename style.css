@@ -1,0 +1,95 @@
+html {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(34, 38%, 79%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfumeBox {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border-radius: 3%
+}
+
+.productImage {
+    width: 50%;
+    border-radius: 3%;
+}
+
+.information {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.subtitle {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    color: rgba(128, 128, 128, 0.743);
+}
+
+.title{
+    text-align: inherit;
+    position: absolute;
+    top: 3rem;
+    left: 15px;
+}
+
+.info {
+    font-weight: bold;
+    position: absolute;
+    top: 11rem;
+    left: 15px;
+    right: 5px;
+    text-align: justify;
+    color: rgb(128, 128, 128);
+}
+.price {
+    font-weight: bold;
+    position: absolute;
+    top: 17rem;
+    left: 15px;
+    color: hsl(160, 25%, 38%);
+}
+
+.priceBefore {
+    color: rgba(128, 128, 128, 0.745);
+    position: absolute;
+    top: 17.2rem;
+    left: 10rem;
+    text-decoration: line-through;
+}
+
+.btnBox {
+    position: absolute;
+    top: 20rem;
+    left: 1.5rem;
+}
+
+.btn {
+    background-color: hsl(159, 37%, 37%);
+    padding: 20px 82px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
